@@ -9,11 +9,6 @@ st.set_page_config(page_title="Brave Pink-Hero Green", page_icon="🌸", layout=
 st.markdown(
     """
     <style>
-    .main {
-        background: linear-gradient(135deg, #ffdee9 0%, #b5fffc 100%);
-        padding: 2rem;
-        border-radius: 15px;
-    }
     .stDownloadButton button {
         background-color: #d63384;
         color: white;
