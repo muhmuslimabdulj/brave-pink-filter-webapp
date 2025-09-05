@@ -8,7 +8,14 @@ import io
 st.set_page_config(page_title="Brave Pink-Hero Green", page_icon="🌸", layout="centered")
 st.markdown(
     """
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
     <style>
+    .custom-title {
+        font-family: 'Bungee', sans-serif;
+        font-size: clamp(1.5rem, 5vw, 2.5rem); 
+        font-weight: bold;
+        margin-bottom: 0.8rem;
+    }
     .stDownloadButton button {
         background-color: #d63384;
         color: white;
@@ -28,17 +35,6 @@ st.markdown(
 # Title
 st.markdown(
     """
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
-
-    <style>
-    .custom-title {
-        font-family: 'Bungee', sans-serif;
-        font-size: clamp(1.5rem, 5vw, 2.5rem); 
-        font-weight: bold;
-        margin-bottom: 0.8rem;
-    }
-    </style>
-
     <div style='text-align: center;'>
         <span class='custom-title' style='color:#d63384;'>Brave Pink</span>
         <span class='custom-title' style='color:#eaeaea;'> - </span>
