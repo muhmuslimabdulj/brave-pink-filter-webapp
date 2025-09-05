@@ -98,9 +98,9 @@ if uploaded_file is not None:
     st.subheader("✨ Preview Hasil")
     col1, col2 = st.columns(2)
     with col1:
-        st.image(pil_img, caption="Original", use_container_width=True)
+        st.image(pil_img, caption="Original", width="stretch")
     with col2:
-        st.image(duotone_rgb, caption="Brave Pink-Hero Green", use_container_width=True)
+        st.image(duotone_rgb, caption="Brave Pink-Hero Green", width="stretch")
 
     # Simpan untuk download
     result_pil = Image.fromarray(duotone_rgb)
