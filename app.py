@@ -53,7 +53,11 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.image("brave_pink_low.jpg", width=400)
+# Image Cover
+col1, col2, col3 = st.columns([1, 2, 1]) 
+with col2:
+    st.image("brave_pink_low.jpg", width=400)
+
 st.markdown("<p style='text-align:center; color:#6c757d;'>Satu Suara, Suara Perlawanan!</p>", unsafe_allow_html=True)
 
 # Sidebar Info
